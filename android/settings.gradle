@@ -1,0 +1,13 @@
+rootProject.name = 'koreAiExample'
+include ':react-native-kore-ai-native-wrapper'
+project(':react-native-kore-ai-native-wrapper').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-kore-ai-native-wrapper/android')
+include ':react-native-kore-ai-native-wrapper'
+project(':react-native-kore-ai-native-wrapper').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-kore-ai-native-wrapper/android')
+include ':react-native-kore-ai-native-wrapper'
+project(':react-native-kore-ai-native-wrapper').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-kore-ai-native-wrapper/android')
+include ':react-native-kore-ai-native-wrapper'
+project(':react-native-kore-ai-native-wrapper').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-kore-ai-native-wrapper/android')
+include ':react-native-kore-ai-native-wrapper'
+project(':react-native-kore-ai-native-wrapper').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-kore-ai-native-wrapper/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
